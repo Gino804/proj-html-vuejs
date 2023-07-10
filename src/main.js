@@ -18,6 +18,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
+import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
 
 library.add(faFacebookF);
 library.add(faTwitter);
@@ -32,5 +33,6 @@ library.add(faArrowRight);
 library.add(faArrowLeft);
 library.add(faEnvelope);
 library.add(faCaretDown);
+library.add(faChevronUp);
 
 createApp(App).component("FontAwesomeIcon", FontAwesomeIcon).mount("#app");

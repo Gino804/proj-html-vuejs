@@ -2,12 +2,14 @@
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
 import AppFooter from './components/AppFooter.vue';
+import GoUp from './components/GoUp.vue';
 
 export default {
     components: {
         AppHeader,
         AppMain,
-        AppFooter
+        AppFooter,
+        GoUp
     }
 }
 </script>
@@ -16,6 +18,7 @@ export default {
     <AppHeader />
     <AppMain />
     <AppFooter />
+    <GoUp />
 </template>
 
 <style lang="scss">
