@@ -16,6 +16,8 @@ import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { faShoppingBasket } from "@fortawesome/free-solid-svg-icons";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
 
 library.add(faFacebookF);
 library.add(faTwitter);
@@ -28,5 +30,7 @@ library.add(faStar);
 library.add(faShoppingBasket);
 library.add(faArrowRight);
 library.add(faArrowLeft);
+library.add(faEnvelope);
+library.add(faCaretDown);
 
 createApp(App).component("FontAwesomeIcon", FontAwesomeIcon).mount("#app");
