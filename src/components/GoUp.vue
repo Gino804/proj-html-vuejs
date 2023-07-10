@@ -15,5 +15,10 @@ a {
     bottom: 20px;
     right: 50px;
     color: $grey;
+
+    &:hover {
+        background-color: $grey;
+        color: white;
+    }
 }
 </style>
