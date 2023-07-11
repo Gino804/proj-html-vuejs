@@ -23,6 +23,7 @@ div {
     margin: 50px 0;
     padding-left: 10px;
     padding-bottom: 10px;
+    flex-grow: 1;
 
     h3 {
         margin-bottom: 10px;
