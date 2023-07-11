@@ -9,14 +9,14 @@ export default {
 <template>
     <nav>
         <ul>
-            <li v-for="link in links">
+            <li v-for="link in links" :key="link">
                 <a href='#'>
                     {{ link.title }}
                     <FontAwesomeIcon v-if="link.subtitles" :icon="['fas', 'caret-down']" class="caret" />
                 </a>
                 <div v-if="link.subtitles" class="subtitles">
                     <ul>
-                        <li v-for="subtitle in link.subtitles"><a href='#'>{{ subtitle }}</a></li>
+                        <li v-for="subtitle in link.subtitles" :key="link"><a href='#'>{{ subtitle }}</a></li>
                     </ul>
                 </div>
             </li>
