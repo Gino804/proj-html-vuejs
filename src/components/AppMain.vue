@@ -1,7 +1,15 @@
 <script>
+import MainSlider from './MainSlider.vue';
 
+export default {
+    components: {
+        MainSlider
+    }
+}
 </script>
 
-<template></template>
+<template>
+    <MainSlider />
+</template>
 
-<style scoped></style>
+<style lang="scss" scoped></style>
