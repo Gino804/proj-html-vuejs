@@ -183,4 +183,37 @@ export const store = reactive({
       poster: "../src/assets/img/1.jpg",
     },
   ],
+
+  news: [
+    {
+      id: 1,
+      title: "Actor The Concept Movie High Concept Theory See The Post",
+      date: "April 14, 2020",
+      img: "../src/assets/img/blog-570x570.jpg",
+    },
+    {
+      id: 2,
+      title: "Consequat Nam Lectus Nibh Aucibus It Has Turpis Survived.",
+      date: "April 14, 2020",
+      img: "../src/assets/img/blog2-570x570.jpg",
+    },
+    {
+      id: 3,
+      title: "Nam Lectus Nibh Consequat Aucibus Turpis It Has Survived.",
+      date: "April 14, 2020",
+      img: "../src/assets/img/blog3-570x570.jpg",
+    },
+    {
+      id: 4,
+      title: "Bring Me The Head Of Alfredo Garcia Best Movie In English 2020",
+      date: "April 14, 2020",
+      img: "../src/assets/img/blog4-570x570.jpg",
+    },
+    {
+      id: 5,
+      title: "Pump Action Interaction English Action Movie (2020 New)",
+      date: "April 14, 2020",
+      img: "../src/assets/img/blog5-570x570.jpg",
+    },
+  ],
 });
