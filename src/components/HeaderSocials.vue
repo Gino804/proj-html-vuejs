@@ -9,20 +9,20 @@
                 <FontAwesomeIcon :icon="['far', 'envelope']" class="envelope" />
                 Superhit top movie <span>** King Star **</span>
                 <span class="socials">
-                    <a href="#">
-                        <FontAwesomeIcon :icon="['fab', 'facebook-f']" class="facebook" />
+                    <a href="#" class="facebook">
+                        <FontAwesomeIcon :icon="['fab', 'facebook-f']" />
                     </a>
-                    <a href="#">
-                        <FontAwesomeIcon :icon="['fab', 'twitter']" class="twitter" />
+                    <a href="#" class="twitter">
+                        <FontAwesomeIcon :icon="['fab', 'twitter']" />
                     </a>
-                    <a href="#">
-                        <FontAwesomeIcon :icon="['fab', 'linkedin-in']" class="linkedin" />
+                    <a href="#" class="linkedin">
+                        <FontAwesomeIcon :icon="['fab', 'linkedin-in']" />
                     </a>
-                    <a href="#">
-                        <FontAwesomeIcon :icon="['fab', 'instagram']" class="instagram" />
+                    <a href="#" class="instagram">
+                        <FontAwesomeIcon :icon="['fab', 'instagram']" />
                     </a>
-                    <a href="#">
-                        <FontAwesomeIcon :icon="['fab', 'google-plus-g']" class="google" />
+                    <a href="#" class="google">
+                        <FontAwesomeIcon :icon="['fab', 'google-plus-g']" />
                     </a>
                 </span>
             </div>
@@ -55,26 +55,57 @@
 
         a {
             margin: 0 7px;
+            border-radius: 50%;
         }
 
         .facebook {
             color: #355089;
+            padding: 7px 10px;
+
+            &:hover {
+                background-color: #355089;
+                color: white;
+            }
         }
 
         .twitter {
             color: #018BC2;
+            padding: 7px;
+
+            &:hover {
+                background-color: #018BC2;
+                color: white;
+            }
         }
 
         .linkedin {
             color: #0C6794;
+            padding: 6px 8px;
+
+            &:hover {
+                background-color: #0C6794;
+                color: white;
+            }
         }
 
         .instagram {
             color: #BB222B;
+            padding: 6px 8px;
+
+            &:hover {
+                background-color: #BB222B;
+                color: white;
+            }
         }
 
         .google {
             color: #B03E32;
+            padding: 7px 5px;
+
+            &:hover {
+                background-color: #B03E32;
+                color: white;
+            }
         }
     }
 
