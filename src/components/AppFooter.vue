@@ -1,7 +1,13 @@
 <script>
+import FooterMain from './FooterMain.vue';
 
+export default {
+    components: {
+        FooterMain
+    }
+}
 </script>
 
-<template></template>
-
-<style scoped></style>
+<template>
+    <FooterMain />
+</template>
