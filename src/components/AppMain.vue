@@ -1,11 +1,13 @@
 <script>
 import MainSlider from './MainSlider.vue';
 import MainCarousel from './MainCarousel.vue';
+import MainPlaylist from './MainPlaylist.vue';
 
 export default {
     components: {
         MainSlider,
-        MainCarousel
+        MainCarousel,
+        MainPlaylist
     }
 }
 </script>
@@ -13,6 +15,7 @@ export default {
 <template>
     <MainSlider />
     <MainCarousel />
+    <MainPlaylist />
 </template>
 
 <style lang="scss" scoped></style>
