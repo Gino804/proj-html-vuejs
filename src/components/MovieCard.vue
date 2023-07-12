@@ -35,7 +35,6 @@ export default {
 @use "../assets/scss/partials/vars" as *;
 
 .card {
-    width: 34%;
     height: 500px;
     position: relative;
 

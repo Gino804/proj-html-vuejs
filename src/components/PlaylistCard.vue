@@ -2,7 +2,7 @@
 
 export default {
     props: {
-        movie: Array
+        movie: Object
     }
 }
 </script>

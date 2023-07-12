@@ -58,9 +58,15 @@ export default {
             </div>
         </div>
         <div class="carousel">
-            <MovieCard :movie="prevMovie" class="unactive" :isRounded="true" :isUnactive="true" />
-            <MovieCard :movie="currentMovie" class="active" :isRounded="true" />
-            <MovieCard :movie="nextMovie" class="unactive" :isRounded="true" :isUnactive="true" />
+            <div class='w-34'>
+                <MovieCard :movie="prevMovie" class="unactive" :isRounded="true" :isUnactive="true" />
+            </div>
+            <div class='w-32'>
+                <MovieCard :movie="currentMovie" class="active" :isRounded="true" />
+            </div>
+            <div class='w-34'>
+                <MovieCard :movie="nextMovie" class="unactive" :isRounded="true" :isUnactive="true" />
+            </div>
         </div>
     </div>
 </template>
@@ -99,12 +105,19 @@ export default {
     align-items: center;
     margin-top: 80px;
 
+    .w-32 {
+        width: 32%;
+    }
+
+    .w-34 {
+        width: 34%;
+    }
+
     .unactive {
         opacity: 0.4;
     }
 
     .active {
-        width: 32%;
         height: 600px;
     }
 }
