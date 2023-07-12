@@ -5,6 +5,7 @@ import MainPlaylist from './MainPlaylist.vue';
 import MainComingsoon from './MainComingsoon.vue';
 import MoviesList from './MoviesList.vue';
 import MainNews from './MainNews.vue';
+import MainForm from './MainForm.vue';
 
 export default {
     components: {
@@ -13,7 +14,8 @@ export default {
         MainPlaylist,
         MainComingsoon,
         MoviesList,
-        MainNews
+        MainNews,
+        MainForm
     }
 }
 </script>
@@ -25,6 +27,7 @@ export default {
     <MainComingsoon />
     <MoviesList />
     <MainNews />
+    <MainForm />
 </template>
 
 <style lang="scss" scoped></style>
